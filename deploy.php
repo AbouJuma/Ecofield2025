@@ -9,7 +9,8 @@ if ($_GET['key'] !== $secret) {
 }
 
 // Change to your project directory
-$dir = '/home/Ecofield/public_html/';
+// $dir = '/home/ecofield@s13/public_html/';
+$dir = '/domains/newsite.ecofieldgroup/public_html/';
 
 // Pull latest code
 $output = shell_exec("cd {$dir} && git pull origin main 2>&1");
