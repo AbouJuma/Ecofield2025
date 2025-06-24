@@ -14,7 +14,7 @@ if ($_GET['key'] !== $secret) {
 }
 
 // Change to your project directory
-$dir = '/home/ecofield/domains/newsite.ecofieldgroup.com/public_html';;
+$dir = '/home/ecofield/domains/newsite.ecofieldgroup.com/public_html';
 $git = '/usr/bin/git';
 // $dir = '/domains/ecofield@s13/public_html/';
 // $dir = '/domains/newsite.ecofieldgroup/public_html/';
